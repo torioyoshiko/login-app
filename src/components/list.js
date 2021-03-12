@@ -35,7 +35,7 @@ const List = (props) => {
     }
 
     if (!props.user.user) {
-        history.push('/')
+        history.push(process.env.PUBLIC_URL + '/')
         return null;
     }
 

@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="App">
         <Switch>
-            <Route exact path="/" component={RegisterPage}/>
-            <Route path='/list' component={List}/>
-            <Route path='/login' component={LoginPage}/>
+            <Route exact path={process.env.PUBLIC_URL + '/'} component={RegisterPage}/>
+            <Route path={process.env.PUBLIC_URL + '/list'} component={List}/>
+            <Route path={process.env.PUBLIC_URL + '/login'} component={LoginPage}/>
         </Switch>
         <UserProvider/>
     </div>

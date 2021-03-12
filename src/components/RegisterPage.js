@@ -13,11 +13,11 @@ const RegisterPage = () => {
     const registerUser = async () => {
         await firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL);
         await firebaseApp.auth().createUserWithEmailAndPassword(email, password);
-        history.push("/list");
+        history.push(process.env.PUBLIC_URL + "/list");
     }
 
     const login = () => {
-        history.push("/login")
+        history.push(process.env.PUBLIC_URL + "/login")
     }
 
     return (

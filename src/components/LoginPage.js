@@ -11,11 +11,11 @@ const LoginPage = () => {
     const loginUser = async () => {
         await firebaseApp.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL);
         await firebaseApp.auth().signInWithEmailAndPassword(email, password);
-        history.push("/list");
+        history.push(process.env.PUBLIC_URL + "/list");
     }
 
     const newUser = () => {
-        history.push("/")
+        history.push(process.env.PUBLIC_URL + "/")
     }
 
     return (
@@ -25,9 +25,9 @@ const LoginPage = () => {
                 <input placeholder='Email' onChange={(e) => setEmail(e.target.value)} className='input-form'/>
                 <input placeholder='Password' type="password" onChange={(e) => setPassword(e.target.value)}
                        className='input-form'/>
-                <button className='button' onClick={loginUser}>Log in</button>
+                <button className='button' onClick={loginUser}>Log n</button>
                 <p className='login-text'>New user?</p>
-                <button className='button' onClick={newUser}>Sign in</button>
+                <button className='button' onClick={newUser}>Sign up</button>
             </div>
         </div>
     )
