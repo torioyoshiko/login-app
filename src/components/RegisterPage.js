@@ -29,7 +29,7 @@ const RegisterPage = () => {
                        className='input-form'/>
                 <button className='button' onClick={registerUser}>Sign Up</button>
                 <p className='login-text'>Already with us?</p>
-                <button className='button' onClick={login}>Log in</button>
+                <button className='button' onClick={login}>Log In</button>
             </div>
         </div>
     )
