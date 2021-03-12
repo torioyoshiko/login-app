@@ -1,0 +1,66 @@
+.main-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-info {
+    font-weight: 300;
+}
+
+.button-profile {
+    width: 220px;
+    padding: 7px;
+    border: none;
+    font: inherit;
+    border-radius: 3px;
+}
+
+.write-task {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.list-input {
+    width: 250px;
+    padding: 10px;
+    border: none;
+    outline:none;
+    border-bottom: #c3ef9b 2px solid;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.create-button {
+    border: none;
+    font: inherit;
+    margin-left: 5px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.main-word {
+    font-size: larger;
+    margin: 10px 0 0;
+}
+
+.single-task {
+    display: flex;
+    align-items: center;
+}
+
+.task {
+    margin-right: 5px;
+}
+
+.list-button {
+    width: 35px;
+    border: none;
+    font: inherit;
+}
