@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/login-app/static/css/main.03247a6f.chunk.css",
-    "main.js": "/login-app/static/js/main.68f92607.chunk.js",
-    "main.js.map": "/login-app/static/js/main.68f92607.chunk.js.map",
+    "main.js": "/login-app/static/js/main.568c1faf.chunk.js",
+    "main.js.map": "/login-app/static/js/main.568c1faf.chunk.js.map",
     "runtime-main.js": "/login-app/static/js/runtime-main.2f55f01a.js",
     "runtime-main.js.map": "/login-app/static/js/runtime-main.2f55f01a.js.map",
     "static/js/2.c30556e5.chunk.js": "/login-app/static/js/2.c30556e5.chunk.js",
     "static/js/2.c30556e5.chunk.js.map": "/login-app/static/js/2.c30556e5.chunk.js.map",
     "index.html": "/login-app/index.html",
-    "precache-manifest.3540dd74d55755ed4a2f48d2f44fbb59.js": "/login-app/precache-manifest.3540dd74d55755ed4a2f48d2f44fbb59.js",
+    "precache-manifest.fce0f2c41a7507ff4bf69fc4fac0d1c0.js": "/login-app/precache-manifest.fce0f2c41a7507ff4bf69fc4fac0d1c0.js",
     "service-worker.js": "/login-app/service-worker.js",
     "static/css/main.03247a6f.chunk.css.map": "/login-app/static/css/main.03247a6f.chunk.css.map",
     "static/js/2.c30556e5.chunk.js.LICENSE.txt": "/login-app/static/js/2.c30556e5.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2f55f01a.js",
     "static/js/2.c30556e5.chunk.js",
     "static/css/main.03247a6f.chunk.css",
-    "static/js/main.68f92607.chunk.js"
+    "static/js/main.568c1faf.chunk.js"
   ]
 }
