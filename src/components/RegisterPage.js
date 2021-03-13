@@ -28,8 +28,10 @@ const RegisterPage = () => {
                 <input placeholder='Password' type="password" onChange={(e) => setPassword(e.target.value)}
                        className='input-form'/>
                 <button className='button' onClick={registerUser}>Sign Up</button>
-                <p className='login-text'>Already with us?</p>
-                <button className='button' onClick={login}>Log In</button>
+                <div className='login-block'>
+                    <p className='login-text'>Already with us?</p>
+                    <a className='link' onClick={login}>&nbsp; Log In</a>
+                </div>
             </div>
         </div>
     )

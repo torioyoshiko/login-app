@@ -26,8 +26,10 @@ const LoginPage = () => {
                 <input placeholder='Password' type="password" onChange={(e) => setPassword(e.target.value)}
                        className='input-form'/>
                 <button className='button' onClick={loginUser}>Log In</button>
-                <p className='login-text'>New user?</p>
-                <button className='button' onClick={newUser}>Sign Up</button>
+                <div className='login-block'>
+                    <p className='login-text'>New user?</p>
+                    <a className='link' onClick={newUser}>&nbsp;Sign Up</a>
+                </div>
             </div>
         </div>
     )

@@ -26,8 +26,20 @@ body {
     font-size: larger;
 }
 
-.login-text {
-    margin: 20px 0 0 0;
+.login-block{
+    display: flex;
+    margin-top: 20px;
+}
+
+.login-text{
+    margin: 0;
+}
+
+.link {
+    color: #a2ef5c;
+    font-style: oblique;
+    cursor: pointer;
+    text-align: center;
 }
 
 .input-form {
